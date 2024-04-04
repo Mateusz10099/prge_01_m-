@@ -2,4 +2,10 @@
 
 # md
 
-- [ ] mój drogi pracowniku, zrób zmianę w kodzie
+Lista zadań:
+Zjeść coś
+Zjeść coś
+Zjeść coś
+Iść spać
+
+- [x] mój drogi pracowniku, zrób zmianę w kodzie
