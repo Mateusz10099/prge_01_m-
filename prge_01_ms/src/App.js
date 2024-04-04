@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+
+const user_list = [
+  { imie: "Edwin" },
+  { imie: "Grzegorz" },
+  { imie: "Mirosław" },
+];
+
+console.log(user_list);
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {user_list.map((zolnierz) => {
+        return <div>{zolnierz.imie}</div>;
+      })}
     </div>
   );
 }
